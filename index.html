@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Dayroks — Портфоліо</title>
+  <meta name="description" content="Telegram Mini Apps та AI-боти для бізнесу." />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Dayroks — Портфоліо" />
+  <meta property="og:description" content="Telegram Mini Apps та AI-боти для бізнесу." />
+  <meta property="og:image" content="og.png" />
+  <meta property="og:url" content="https://example.com" />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet"
+  />
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <nav class="nav">
+    <a href="#" class="nav__logo" aria-label="На початок">ІП</a>
+    <ul class="nav__links">
+      <li><a href="#projects">Проєкти</a></li>
+      <li><a href="#about">Про мене</a></li>
+      <li><a href="#contact">Контакти</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <!-- Hero -->
+    <section id="hero">
+      <div class="blob blob-1"></div>
+      <div class="blob blob-2"></div>
+
+      <h1 class="fade-in">Dayroks</h1>
+      <p class="subtitle fade-in">Telegram Mini Apps та AI-боти для бізнесу</p>
+
+      <div class="cta">
+        <a href="https://t.me/ТВОЙ_ЮЗЕРНЕЙМ" class="btn primary" target="_blank" rel="noopener">Написати в Telegram</a>
+        <a href="#projects" class="btn ghost">Дивитись проєкти</a>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects">
+      <div class="container">
+        <h2>Проєкти</h2>
+
+        <div class="filters">
+          <button class="active" data-filter="all">Усі</button>
+          <button data-filter="mini-app">Mini Apps</button>
+          <button data-filter="bot">Боти</button>
+          <button data-filter="ai">AI</button>
+          <button data-filter="web">Web</button>
+        </div>
+
+        <div class="grid" id="projects-grid"></div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about">
+      <div class="container">
+        <h2>Про мене</h2>
+        <p class="about-text">
+          Привіт! Я вайбкодер та розробник. Створюю Telegram Mini Apps, розумних ботів та AI-інструменти для бізнесу. Люблю швидкі та зручні рішення, які реально економлять час і приносять гроші.
+        </p>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact">
+      <div class="container">
+        <h2>Контакти</h2>
+        <p>Готовий обговорити ваш проєкт. Пишіть у будь-який зручний спосіб:</p>
+
+        <div class="contact-links">
+          <a href="https://t.me/dayroks" target="_blank" rel="noopener">Telegram</a>
+          <a href="https://github.com/dayroks" target="_blank" rel="noopener">GitHub</a>
+          <a href="mailto:mrlynxwork@gmail.com">Email</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>© 2026 Dayroks. Створено з любов'ю та AI.</p>
+    </div>
+  </footer>
+
+  <!-- Site Script (в кінці body, після всього DOM) -->
+  <script src="script.js"></script>
+</body>
+</html>
